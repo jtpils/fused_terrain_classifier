@@ -8,6 +8,7 @@
 
 <!--     <remap from="/points_raw" to="/surfel_map/pointcloud" /> -->
      <remap from="/points_raw" to="/mapping_nodelet/pointcloud_downsampled" />
+     <remap from="/image_seg" to="/image/label_output" />
 
   </node>
   
